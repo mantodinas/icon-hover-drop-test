@@ -12,7 +12,7 @@
   background-color: #888888;
   width: 160px;
   z-index: 1;
-  margin-top: 15px;
+  border-radius: 10px;
 }
 
 .icon-content a {
@@ -22,13 +22,20 @@
   text-decoration: none;
 }
 
-.icon-content a img {
-  height: 30px;
-  width: 30px;
-}
-
 .icon-content a:hover {
   background-color: #302f2f;
+  border-radius: 10px;
+}
+
+.icon-content a .img-text-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon-content a .img-text-container img {
+  height: 30px;
+  width: 30px;
 }
 
 /* Show the dropdown menu on hover */
